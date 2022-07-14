@@ -50,7 +50,7 @@ SOFTWARE. */
 
 #define setupArguments(void) /*------------*/ { \
 	if(!_setupArguments(argumentAmount, argument)){ \
-		fprintf(stderr, "%s: usage: %s or %s [width] [height] [mines]\n", programName, programName, programName); \
+		fprintf(stderr, "%s: usage: %s [width] [height] [mines]\n", programName, programName); \
 		return 1; \
 	} \
 }
