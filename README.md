@@ -45,7 +45,7 @@ Ever thought about playing a game? How about a classic minesweeper? Well now you
 ## Terminal help menu
 #### $ mine
 <pre>
-mine: usage: mine or mine [width] [height] [mines]
+mine: usage: mine [width] [height] [mines]
 </pre>
 
 ## Trivia
