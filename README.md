@@ -26,7 +26,7 @@ SOFTWARE. -->
 # [maɪn]
 MINE Is Not Entertaining
 
-![MINE](https://github.com/TheSenatorSteven/MINE/blob/main/screenshots/sample.png)
+![MINE](https://raw.githubusercontent.com/SenatorSteven/MINE/refs/heads/master/screenshots/sample.png)
 
 ## What's a MINE?
 Ever thought about playing a game? How about a classic minesweeper? Well now you can play it on your terminal! (ASCII only)
