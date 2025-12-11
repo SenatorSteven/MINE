@@ -23,7 +23,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-#!/bin/sh
+#!/bin/bash
 
 DEBUG=false                                           # whether to keep asm files
                                                       #
@@ -34,7 +34,7 @@ compileFile(){                                        #
                                                       #
 asm="output/asm"                                      # path to asm files
 files=""                                              # list of files that form the executable
-cd $(dirname "$0")                                    # open location of this script
+cd "${BASH_SOURCE%/*}"                                # open location of this script
 if [ ! -f compile.sh ]; then                          # if this script is not found in the location provided
     printf "could not find compile script location\n" #
     exit 1                                            #
